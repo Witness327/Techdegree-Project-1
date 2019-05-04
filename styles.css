@@ -30,6 +30,7 @@ a:active{
   color: yellowgreen;
 }
 
+/* The class pin-icon was inspired by the code in this template in the "a.social" section. It was used to make the original size of the pin smaller. */
 .pin-icon {
   margin-left: 5px;
   margin-right: 5px;
