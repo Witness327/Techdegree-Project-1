@@ -30,7 +30,12 @@ a:active{
   color: yellowgreen;
 }
 
-
+.pin-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 23px;
+  height: 23px;
+  }
 /* Section Styles */
 
 .main-nav {
@@ -88,7 +93,7 @@ header .profile-image:hover {
 }
 .tag {
   background-color: rgba(68, 8, 8, 0.514);
-  color: hsl(120, 95%, 40%);
+  color: yellowgreen;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -97,6 +102,7 @@ header .profile-image:hover {
 .location {
   background-color: rgba(68, 8, 8, 0.514);
   color: yellowgreen;
+  font-weight: bold;
 }
 .card {
   margin: 30px;
@@ -134,6 +140,10 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  display: inline-block;
+  font-family: 'Lustria', serif;
+  /* font-family: 'Merriweather', serif; */
+  
 }
 
 footer .copyright {
@@ -173,6 +183,10 @@ a.linkedin {
 }
 a.github {
   background-image: url(images/github.svg);
+}
+
+a.gmail {
+  background-image: url(images/gmail.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -214,7 +228,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: -40px auto;
   }
 
 }
